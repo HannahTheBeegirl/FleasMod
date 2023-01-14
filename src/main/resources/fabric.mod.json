@@ -14,7 +14,7 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/fleas-mod/icon.png",
+  "icon": "assets/fleasmod/pack.png",
 
   "environment": "*",
   "entrypoints": {
