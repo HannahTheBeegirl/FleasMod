@@ -4,9 +4,9 @@
   "package": "net.hannahthebeegirl.fleasmod.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "getPreferredMixin"
   ],
   "client": [
-    "ExampleMixin"
   ],
   "injectors": {
     "defaultRequire": 1

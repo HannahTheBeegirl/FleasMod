@@ -85,5 +85,6 @@
     "fixed": {
       "translation": [0, 4, -3]
     }
-  }
+  },
+  "gui_light": "front"
 }

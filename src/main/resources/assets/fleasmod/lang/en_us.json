@@ -1,8 +1,14 @@
 {
+  "item.fleasmod.bottle_cap": "Bottle Cap",
+  "item.fleasmod.shirt_button": "Shirt Button",
+  "item.fleasmod.lost_coin": "Lost Coin",
+
   "item.fleasmod.rat_ears": "Rat Ears",
-  "item.fleasmod.tinkerer_goggles": "Tinkerer Goggles",
+  "item.fleasmod.tinkerer_goggles": "Tinkerer's Goggles",
   "item.fleasmod.gas_mask": "Gas Mask",
   "item.fleasmod.pigtails": "Pigtails",
+  "item.fleasmod.farmer_hat": "Farmer's Hat",
+  "item.fleasmod.chef_hat": "Chef's Hat",
 
   "itemGroup.fleasmod.fleasmod": "Fleas Mod"
 }
