@@ -1,22 +1,29 @@
 package net.hannahthebeegirl.fleasmod.item;
 
+import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
+import net.hannahthebeegirl.fleasmod.FleasMod;
 import net.minecraft.block.DispenserBlock;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.mob.MobEntity;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.ArmorItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
+import net.minecraft.item.*;
+import net.minecraft.nbt.NbtCompound;
 import net.minecraft.stat.Stats;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.World;
 
+import java.util.List;
+
 public class HatItem
-extends Item {
-    public HatItem(Settings settings) {
+extends Item
+implements DyeableItem {
+    public int DEFAULT_COLOR = 11805920;
+    public HatItem(Settings settings, int EarsColor) {
         super(settings);
+        DEFAULT_COLOR = EarsColor;
         DispenserBlock.registerBehavior(this, ArmorItem.DISPENSER_BEHAVIOR);
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> {if (hasColor(stack)) return getColor(stack); return DEFAULT_COLOR;}, this);
     }
 
     @Override
