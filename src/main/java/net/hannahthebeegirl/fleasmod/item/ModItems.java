@@ -2,7 +2,7 @@ package net.hannahthebeegirl.fleasmod.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.hannahthebeegirl.fleasmod.FleasMod;
-import net.minecraft.item.Item;
+import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -13,6 +13,12 @@ public class ModItems {
             new CosmeticShieldItem(new FabricItemSettings().group(ModItemGroup.FLEAS_MOD)));
     public static final Item LOST_COIN = registerItem("lost_coin",
             new CosmeticShieldItem(new FabricItemSettings().group(ModItemGroup.FLEAS_MOD)));
+    public static final Item PUSH_PIN = registerItem("push_pin",
+            new SwordItem(ToolMaterials.IRON, 3, -2.4f, new FabricItemSettings().group(ModItemGroup.FLEAS_MOD)));
+    public static final Item SEWING_NEEDLE = registerItem("sewing_needle",
+            new SwordItem(ToolMaterials.IRON, 3, -2.4f, new FabricItemSettings().group(ModItemGroup.FLEAS_MOD)));
+    public static final Item SMALL_TWIG = registerItem("small_twig",
+            new SwordItem(ToolMaterials.WOOD, 3, -2.4f, new FabricItemSettings().group(ModItemGroup.FLEAS_MOD)));
     public static final Item RAT_EARS = registerItem("rat_ears",
             new HatItem(new FabricItemSettings().group(ModItemGroup.FLEAS_MOD), 6439212));
     public static final Item TINKERER_GOGGLES = registerItem("tinkerer_goggles",

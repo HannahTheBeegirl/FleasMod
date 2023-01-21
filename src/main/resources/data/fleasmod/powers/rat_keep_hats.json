@@ -1,0 +1,10 @@
+{
+  "type": "origins:keep_inventory",
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "tag": "fleasmod:hats"
+    }
+  },
+  "hidden": true
+}

@@ -1,7 +1,9 @@
 {
   "powers": [
+    "fleasmod:rat_keep_hats",
     "fleasmod:rat_size_25",
-    "fleasmod:tinkerer_goggles"
+    "fleasmod:tinkerer_goggles",
+    "fleasmod:gas_mask_recipe"
   ],
   "icon": "fleasmod:tinkerer_goggles",
   "order": 1,
