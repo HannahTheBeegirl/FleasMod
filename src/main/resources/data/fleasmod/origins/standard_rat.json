@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "fleasmod:rat_size_25",
+    "fleasmod:rat_ears"
+  ],
+  "icon": "fleasmod:rat_ears",
+  "order": 0,
+  "impact": 1,
+  "name": "Standard Rat",
+  "description": "A standard rat. Small, fast, cute lil' ears."
+}

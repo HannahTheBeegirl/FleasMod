@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "fleasmod:rat_size_25",
+    "fleasmod:tinkerer_goggles"
+  ],
+  "icon": "fleasmod:tinkerer_goggles",
+  "order": 1,
+  "impact": 1,
+  "name": "Tinkerer Rat",
+  "description": "Make sure not to leave your items sitting around."
+}

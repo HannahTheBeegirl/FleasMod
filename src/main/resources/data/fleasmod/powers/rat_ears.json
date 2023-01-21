@@ -1,0 +1,16 @@
+{
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+      "type": "origins:execute_command",
+      "command": "item replace entity @s armor.head with fleasmod:rat_ears"
+    },
+    "entity_action_respawned": {
+      "type": "origins:execute_command",
+      "command": "item replace entity @s armor.head with fleasmod:rat_ears"
+    },
+    "entity_action_lost": {
+      "type": "origins:execute_command",
+      "command": "item replace entity @s armor.head with minecraft:air"
+    },
+  "hidden": true
+}

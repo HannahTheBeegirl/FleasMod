@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "fleasmod:rat_size_25",
+    "fleasmod:farmer_hat"
+  ],
+  "icon": "fleasmod:farmer_hat",
+  "order": 1,
+  "impact": 1,
+  "name": "Farmer Rat",
+  "description": "Comes with 4 green thumbs!"
+}

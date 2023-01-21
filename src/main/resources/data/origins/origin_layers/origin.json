@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "origins": [
+    "fleasmod:standard_rat",
+    "fleasmod:tinkerer_rat",
+    "fleasmod:barkeep_rat",
+    "fleasmod:farmer_rat"
+  ]
+}

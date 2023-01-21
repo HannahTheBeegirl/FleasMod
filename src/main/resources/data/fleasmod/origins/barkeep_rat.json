@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "fleasmod:rat_size_25",
+    "fleasmod:pigtails"
+  ],
+  "icon": "fleasmod:pigtails",
+  "order": 1,
+  "impact": 1,
+  "name": "Barkeep Rat",
+  "description": "Average size, increased likelihood of stabbing."
+}
